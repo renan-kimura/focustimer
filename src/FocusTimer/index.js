@@ -7,6 +7,6 @@ export function start(minutes, seconds){
     state.seconds = seconds;
 
     timer.updateDisplay();
-    
+    // timer.countdown();
     events.registerControls();
 }
